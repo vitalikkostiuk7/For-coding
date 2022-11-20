@@ -1,0 +1,78 @@
+/* General styles */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/codebcg.jpg)
+}   
+.container{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.all-theme-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.all-theme-item{
+    transition: 0.4s;
+}
+.main-ref{
+    border: 2px solid rgb(200, 212, 92);
+    border-radius: 35%;
+    background-color: #f6ff00;
+    font-size: 30px;
+    color: black;
+    padding: 30px;
+}
+.all-theme-item:hover,
+.all-theme-item:focus{
+    transform: scale(1.3);
+}
+.main-ref:active{
+    background-color: #d4dc00;
+}
+.header{
+    height: 200px;
+    background: url(../images/codebcg.jpg)
+}
+
+
+/* HTML */
+
+
+/* CSS */
+
+
+/* Courses */
+
+
+/* Python */
+
+
+
+/* Responsive */
