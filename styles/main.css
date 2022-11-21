@@ -1,16 +1,16 @@
 /* General styles */
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
+    background-color: rgb(233, 233, 233);
+    font-family: 'Indie Flower', cursive, sans-serif;
 }
 
 * {
     box-sizing: border-box;
-}
-h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
-    padding: 0;
 }
 ul{
     list-style: none;
@@ -18,7 +18,7 @@ ul{
 a{
     text-decoration: none;
 }
-.main{
+.index-main{
     width: 100vw;
     height: 100vh;
     background: url(../images/codebcg.jpg)
@@ -27,7 +27,6 @@ a{
     margin: auto;
     width: 100%;
     height: 100%;
-    display: flex;
 }
 .all-theme-list{
     width: 100%;
@@ -42,6 +41,7 @@ a{
     transition: 0.4s;
 }
 .main-ref{
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border: 2px solid rgb(200, 212, 92);
     border-radius: 35%;
     background-color: #f6ff00;
@@ -70,9 +70,99 @@ a{
 
 /* Courses */
 
-
+.main-course{
+    margin: 200px 0;
+}
+.course-title{
+    font-size: 70px;
+    margin: 80px 0;
+    padding: 150px 100px;
+    letter-spacing: 0.05em;
+    text-align: center;
+}
+.sorted-course-list{
+    display: flex;
+    justify-content: space-around;
+}
+.sorted-course-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sorted-course-title{
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+.all-info-about-course-list{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0 auto;
+    align-items: center;
+    gap: 250px;
+}
+.all-info-about-course-item{
+    padding: 5px;
+}
+.all-info-about-course-title{
+    font-size: 40px;
+    text-align: center;
+}
+.reference-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.reference-item{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(63, 63, 63);
+    transition: all .3s ease-in-out;
+}
+.reference-item-goit:hover,
+.reference-item-goit:focus{
+    color: #FF6B08;
+    font-size: 31px;
+}
+.reference-item-okten:hover,
+.reference-item-okten:focus{
+    color: #3298F2;
+    font-size: 31px;
+}
+.reference-item-code-academy:hover,
+.reference-item-code-academy:focus{
+    color: #203E55;
+    font-size: 31px;
+}
+.reference-item-wayup:hover,
+.reference-item-wayup:focus{
+    color: #39B03E;
+    font-size: 31px;
+}
+span.goit{
+    color: #FF6B08;
+}
+span.okten{
+    color: #3298F2;
+}
+span.code-academy{
+    color: #203E55;
+}
+span.wayup{
+    color: #39B03E;
+}
+.footer{
+    min-height: 100px;
+}
+.footer-text{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 /* Python */
 
+
+/* Useful things */
 
 
 /* Responsive */
